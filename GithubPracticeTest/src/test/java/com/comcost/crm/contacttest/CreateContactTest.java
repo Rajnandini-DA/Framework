@@ -73,6 +73,8 @@ public class CreateContactTest {
 		} else {
 			System.out.println(lastname + "----failed");
 		}
+		
+		System.out.println("Header verification");
 
 		// Logout of Application
 		WebElement Logout = driver.findElement(By.xpath("//img [@src='themes/softed/images/user.PNG']"));
