@@ -47,6 +47,8 @@ public class CreateContactTest {
 			driver = new ChromeDriver();
 		}
 
+		System.out.println("Browser launch");
+		
 		// get the url
 		driver.get(URL);
 		wutil.maximizethepage(driver);
