@@ -47,6 +47,8 @@ public class CreateContactTest {
 			driver = new ChromeDriver();
 		}
 
+		System.out.println("Browser launch");
+		
 		// get the url
 		driver.get(URL);
 		wutil.maximizethepage(driver);
@@ -73,6 +75,8 @@ public class CreateContactTest {
 		} else {
 			System.out.println(lastname + "----failed");
 		}
+		
+		System.out.println("execution done");
 
 		// Logout of Application
 		WebElement Logout = driver.findElement(By.xpath("//img [@src='themes/softed/images/user.PNG']"));
